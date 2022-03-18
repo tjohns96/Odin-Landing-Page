@@ -96,9 +96,8 @@ a, .hero .hero-content {
 }
 
 .feature .feature-explanation{
-    display: flex;
-    justify-content: center;
-    align-self: center;
+    text-align: center;
+    color: #535353;
 }
 
 .feature img{
