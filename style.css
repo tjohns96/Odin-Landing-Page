@@ -95,7 +95,9 @@ a, .hero .hero-content {
     gap: 12px;
 }
 
-.feature .text{
+.feature .feature-explanation{
+    display: flex;
+    justify-content: center;
     align-self: center;
 }
 
