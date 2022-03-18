@@ -16,18 +16,18 @@ body {
     height: auto;
 }
 
-.header-links{
+.header-links {
     display: flex;
     gap: 32px;
 }
 
-a, .hero .hero-content{
+a, .hero .hero-content {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.hero{
+.hero {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -35,27 +35,27 @@ a, .hero .hero-content{
     padding: 64px 0px;
 }
 
-.hero .hero-content{
+.hero .hero-content {
     display: flex;
     flex-direction: column;
     width: 400px;
-    flex-shrink: 0;
+    justify-content: center;
+    gap: 16px;
 }
 
-.hero h1{
+.hero .hero-content, .hero img {
+    width: 35%;
+    height: auto;
+}
+
+.hero h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
 }
 
-.hero img{
-    width: 400px;
-    height: auto;
-    flex-shrink: 0;
-}
-
-#top-button{
+#top-button {
     background-color: #3882F6;
     color: #F9FAF8;
     width: 100px;
@@ -65,3 +65,75 @@ a, .hero .hero-content{
     border: #1F2937;
 }
 
+#features-header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 48px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin: 24px 0px 48px 0px;
+}
+
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: auto;
+    gap: 12px;
+}
+
+.feature img{
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: 100;
+    color: #535353;
+}
+
+#credit{
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 36px;
+}
+
+.sign-up{
+    padding: 5% 10%;
+}
+
+.sign-up-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-text{
+    color: #F9FAF8;
+}
+
+#bottom-button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
